@@ -17,43 +17,43 @@ namespace Oefening_1
       // int = een nummer wat positief/negatief kan zijn
       // bool = ja of nee
 
-      string postcode = "27349 GTR";
-      int huisnummer = 10;
-      string nieuwePostcode = "hoi95";
+      //string postcode = "27349 GTR";
+      //int huisnummer = 10;
+      //string nieuwePostcode = "hoi95";
 
 
-      postcode = nieuwePostcode;
+      //postcode = nieuwePostcode;
 
-      Console.WriteLine(postcode);
-      Console.WriteLine("Wat voor pizza wil je bestellen?");
-      string pizza = Console.ReadLine();
+      //Console.WriteLine(postcode);
+      //Console.WriteLine("Wat voor pizza wil je bestellen?");
+      //string pizza = Console.ReadLine();
 
-      Console.WriteLine(pizza);
+      //Console.WriteLine(pizza);
 
-      int een = 5;
-      int twee = 10;
-      int uitkomst;
+      //int een = 5;
+      //int twee = 10;
+      //int uitkomst;
 
-      uitkomst = een + twee;
+      //uitkomst = een + twee;
 
-      // 15 euro
-      Console.WriteLine(uitkomst + " euro");
+      //// 15 euro
+      //Console.WriteLine(uitkomst + " euro");
       //Console.ReadLine();
 
       // Probeer de persoon om 2 getallen te vragen en die van elkaar af te trekken
 
-      int pizza1 = Convert.ToInt32(Console.ReadLine());
-      int pizza2 = Convert.ToInt32(Console.ReadLine());
-      int betaling = pizza1 - pizza2;
+      //int pizza1 = Convert.ToInt32(Console.ReadLine());
+      //int pizza2 = Convert.ToInt32(Console.ReadLine());
+      //int betaling = pizza1 - pizza2;
 
-      Console.WriteLine(betaling + " euro");
-      Console.WriteLine("Hoeveel kost de cola?");
-      int cola1 = Convert.ToInt32(Console.ReadLine());
-      int cola2 = Convert.ToInt32(Console.ReadLine());
-      int end = cola1 - cola2;
+      //Console.WriteLine(betaling + " euro");
+      //Console.WriteLine("Hoeveel kost de cola?");
+      //int cola1 = Convert.ToInt32(Console.ReadLine());
+      //int cola2 = Convert.ToInt32(Console.ReadLine());
+      //int end = cola1 - cola2;
 
-      Console.WriteLine(end + " euro");
-      Console.ReadLine();
+      //Console.WriteLine(end + " euro");
+      //Console.ReadLine();
 
       // vermenigvuldigen = *
       // delen = /
@@ -79,7 +79,42 @@ namespace Oefening_1
 
       // probeer een reken machine (soort van) te maken
 
-    
+      Console.WriteLine("Cijfer?");
+
+
+      //int vanillevla1 = Convert.ToInt32(Console.ReadLine());
+      //int vanillevla2 = Convert.ToInt32(Console.ReadLine());
+      //int poepvlek = vanillevla1 + vanillevla2;
+      //Console.WriteLine(poepvlek + " euro");
+      //Console.ReadLine();
+      //Console.WriteLine("Aftrek");
+      //string test = Console.ReadLine();
+      //Console.WriteLine(test);
+      //if (test == "lol") Console.WriteLine("HAHA");
+      //int drinken1 = Convert.ToInt32(Console.ReadLine());
+      //int drinken2 = Convert.ToInt32(Console.ReadLine());
+      //int schijtvlek = drinken1 - drinken2;
+      //Console.WriteLine(schijtvlek + " euro");
+      //Console.ReadLine();
+
+      // @@@ pas deze code aan zodat je of + of - doet
+      // stap1: vul manier met een waarde
+      // stap2: check de waarde
+      // stap3: ??
+
+      int cijfer1 = Convert.ToInt32(Console.ReadLine());
+      string manier = Console.ReadLine();
+      Console.WriteLine(manier);
+      
+      int cijfer2 = Convert.ToInt32(Console.ReadLine());
+      int antwoord = 0;
+
+      // een IF gebruiken om een woord te gebruiken om naar Antwoord = cijfer1 + cijfer2 en een andere IF om een woord te gebruiken om hem naar antwoord = cijfer1 - cijfer2. maar weet niet hoe dat zou moeten
+      antwoord = cijfer1 + cijfer2;
+      antwoord = cijfer1 - cijfer2;
+
+      Console.Write(antwoord);
+      Console.ReadLine();
     }
   }
 }
